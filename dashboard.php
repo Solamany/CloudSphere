@@ -1,0 +1,5 @@
+<?php require 'includes/auth.php';require_login();require 'config/database.php'; include 'includes/header.php';include 'includes/sidebar.php';
+$pdo=db();$counts=[];foreach(['services','servers','storage_resources','cloud_databases'] as $t)$counts[$t]=$pdo->query("SELECT COUNT(*) FROM $t")->fetchColumn();?>
+<main><header class="dash-head"><div><p class="tag">OVERVIEW</p><h1>Infrastructure Dashboard</h1></div><div>Welcome, <b><?=htmlspecialchars($_SESSION['user']['name'])?></b></div></header>
+<div class="metrics"><div class="metric"><span>Total Services</span><b><?=$counts['services']?></b></div><div class="metric"><span>Virtual Servers</span><b><?=$counts['servers']?></b></div><div class="metric"><span>Storage Resources</span><b><?=$counts['storage_resources']?></b></div><div class="metric"><span>Active Databases</span><b><?=$counts['cloud_databases']?></b></div></div>
+<div class="card"><h2>Platform Health</h2><div class="progress"><i style="width:98%"></i></div><p>98% operational availability across monitored resources.</p></div></main><?php include 'includes/footer.php'; ?>

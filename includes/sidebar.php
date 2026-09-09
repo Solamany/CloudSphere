@@ -1,0 +1,2 @@
+<aside class="sidebar"><a class="brand" href="dashboard.php">☁ CloudSphere</a>
+<a href="dashboard.php">▣ Dashboard</a><a href="services.php">◈ Cloud Services</a><a href="servers.php">▤ Virtual Servers</a><a href="storage.php">▰ Storage</a><a href="databases.php">◉ Databases</a><a href="analytics.php">◔ Analytics</a><a href="users.php">♙ Users</a><a href="logout.php">↪ Logout</a></aside>

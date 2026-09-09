@@ -1,0 +1,7 @@
+<?php include 'includes/header.php'; ?>
+<nav class="top"><b>☁ CloudSphere</b><span><a href="#services">Services</a><a href="login.php" class="btn">Explore Dashboard</a></span></nav>
+<section class="hero"><div><p class="tag">CLOUD SERVICES MANAGEMENT PLATFORM</p><h1>Cloud Infrastructure<br>Management Made Simple.</h1><p>Monitor virtual infrastructure, storage, databases and cloud services from one professional workspace.</p><a class="btn" href="login.php">Explore Dashboard →</a></div><div class="orb">☁<small>CONNECTED • SCALABLE • SECURE</small></div></section>
+<section id="services" class="section"><h2>Everything your cloud needs</h2><div class="grid">
+<div class="card"><h3>☁ Cloud Computing</h3><p>Manage scalable computing resources.</p></div><div class="card"><h3>▰ Cloud Storage</h3><p>Track capacity and usage.</p></div><div class="card"><h3>▤ Virtual Servers</h3><p>Monitor infrastructure status.</p></div><div class="card"><h3>◉ Cloud Databases</h3><p>Centralized database inventory.</p></div></div></section>
+<section class="stats"><div><b>24</b><span>Services</span></div><div><b>12</b><span>Servers</span></div><div><b>2.5 TB</b><span>Storage</span></div><div><b>98%</b><span>Availability</span></div></section>
+<footer>☁ CloudSphere — Cloud Services Management Platform</footer><?php include 'includes/footer.php'; ?>
